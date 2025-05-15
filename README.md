@@ -29,8 +29,8 @@ The smart contract is written in Solidity and deployed using Hardhat in combinat
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/masdfa/governance-sc.git
-cd governance-sc
+git clone https://github.com/mtc051290/hardhat-deployment-challenge
+cd hardhat-deployment-challenge
 ```
 
 2. **Install dependencies:**
@@ -44,8 +44,8 @@ npm install
 Create a `.env` file in the root of the project and include the following variables:
 
 ```env
+RPC_URL=your_infura_api_key
 PRIVATE_KEY=your_metamask_private_key
-INFURA_API_KEY=your_infura_api_key
 ```
 
 ⚠️ Never commit or share your private key or API key.
