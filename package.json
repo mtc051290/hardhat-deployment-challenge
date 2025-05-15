@@ -1,0 +1,18 @@
+{
+  "name": "governance-sc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npx hardhat run --network sepolia scripts/deploy.js"
+  },
+  "keywords": [],
+  "author": "MTC590",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "dotenv": "^16.5.0",
+    "ethers": "^5.8.0",
+    "hardhat": "^2.24.0"
+  }
+}

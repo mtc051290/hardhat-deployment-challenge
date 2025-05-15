@@ -1,0 +1,4 @@
+await contract.getProposals()
+const contract = await ethers.getContractAt("Governance", "0xf02Fdec095aE19d03B95082CD3114d870C955369");
+await contract.getProposals()
+const contract = await ethers.getContractAt("Governance", "0x0xf02Fdec095aE19d03B95082CD3114d870C955369");
